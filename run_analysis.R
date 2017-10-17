@@ -71,4 +71,3 @@ for (i in 1:30){
 colnames(cleanset) <- colnames(allset2)
 write.table(cleanset,file = "cleanset.txt",row.names = FALSE)
 
-getwd()
